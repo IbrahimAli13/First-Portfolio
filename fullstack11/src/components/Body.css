@@ -1,0 +1,12 @@
+.carousel-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #111111e1; 
+  }
+  
+  .carousel-content {
+    text-align: center;
+    color: white;
+  }
