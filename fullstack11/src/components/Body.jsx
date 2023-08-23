@@ -1,36 +1,50 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import Carousel from 'react-bootstrap/Carousel';
 import './Body.css';
 
-function Body() {
+function DarkVariantExample() {
   return (
-    <Carousel>
+    <Carousel data-bs-theme="dark">
       <Carousel.Item>
-        <div className="carousel-background">
-          <div className="carousel-content">
-            <h3>Programmer</h3>
-            <p>Pure Platform</p>
-          </div>
-        </div>
+        <img
+          className="d-block w-100"
+          src="about_right.jpg"
+          alt="First slide"
+          height={900}
+        />
+        <Carousel.Caption className='custom-caption'>
+          <h5>Pure Platform</h5>
+          <p>Programmer</p>
+        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="carousel-background">
-          <div className="carousel-content">
-            <h3>Translator</h3>
-            <p>Iraqi Federation of Industries</p>
-          </div>
-        </div>
+        <img
+          className="d-block w-100"
+          src="banner.jpg"
+          alt="Second slide"
+          height={900}
+        />
+        <Carousel.Caption className='custom-caption'>
+          <h5>Lezzo</h5>
+          <p>Representitive</p>
+        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="carousel-background">
-          <div className="carousel-content">
-            <h3>Sales Representitive</h3>
-            <p>Lezzo</p>
-          </div>
-        </div>
+        <img
+          className="d-block w-100"
+          src="img3.jpg"
+          alt="Third slide"
+          height={900}
+        />
+        <Carousel.Caption className='custom-caption'>
+          <h5>Iraqi Federation of Industries</h5>
+          <p>
+            Translator
+          </p>
+        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );
 }
 
-export default Body;
+export default DarkVariantExample;

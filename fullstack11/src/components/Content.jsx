@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import './Content.css'; // Import your custom CSS
+import './Content.css';
 
 function Content() {
   return (

@@ -10,3 +10,10 @@
     text-align: center;
     color: white;
   }
+  .custom-caption {
+    font-size: 40px;
+  }
+  body {
+    background-color: rgb(38, 0, 128);
+    margin: 0;
+  }
