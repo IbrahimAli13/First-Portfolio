@@ -6,18 +6,22 @@ import './components/Body.css';
 import Content from './components/Content';
 import JustforFun from './components/JustforFun';
 import MoreContent from './components/MoreContent';
-import Uselessimg from './components/UselessImg';
-
+import Map from './components/Map';
+import Footer from './components/Footer';
 
 const App = () => {
+ 
+  const lat = 33.309365; 
+  const lng = 44.370772; 
   return (
     <div>
       <Header />
       <Body />
       <Content />
-      <JustforFun/>
-      <MoreContent/>
-      <Uselessimg/>
+      <JustforFun />
+      <MoreContent />
+      <Map lat={lat} lng={lng} />
+      <Footer/>
     </div>
   );
 }
